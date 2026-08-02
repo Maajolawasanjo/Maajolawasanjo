@@ -371,11 +371,11 @@ Deploy  ──▶ Deployed on Vercel with real-time WebSocket state syncing.
 <br />
 
 <div align="center">
-  <img src="./profile-summary-cards-output/tokyonight/0-profile-details.svg" width="100%" alt="Profile Details Line Graph" />
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="Profile Details Line Graph" />
   <br /><br />
-  <img src="./profile-summary-cards-output/tokyonight/1-repos-per-language.svg" width="32%" alt="Repos per Language Pie Chart" />
-  <img src="./profile-summary-cards-output/tokyonight/2-most-commit-language.svg" width="32%" alt="Commits per Language Pie Chart" />
-  <img src="./profile-summary-cards-output/tokyonight/3-stats.svg" width="32%" alt="Stats Donut Chart" />
+  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="32%" alt="Repos per Language Pie Chart" />
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="32%" alt="Commits per Language Pie Chart" />
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="32%" alt="Stats Donut Chart" />
 </div>
 
 <br />
