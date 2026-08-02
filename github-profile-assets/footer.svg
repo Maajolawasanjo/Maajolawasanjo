@@ -1,0 +1,27 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1200" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#050a14"/>
+      <stop offset="100%" stop-color="#0a1122"/>
+    </linearGradient>
+    <linearGradient id="footerBorder" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="140" rx="14" fill="url(#footerBg)"/>
+  <rect x="1" y="1" width="1198" height="138" rx="13" fill="none" stroke="url(#footerBorder)" stroke-width="1.5"/>
+
+  <text x="600" y="55" font-family="-apple-system, sans-serif" font-size="16" font-style="italic" fill="#e2e8f0" text-anchor="middle">
+    "Building intelligent systems that bridge technical robustness and flawless user experiences."
+  </text>
+
+  <text x="600" y="90" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#22c55e" text-anchor="middle" letter-spacing="1">
+    MA'AJO LAWASANJO NATHAN • AI PRODUCT ENGINEER
+  </text>
+
+  <text x="600" y="115" font-family="-apple-system, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">
+    © 2026 Ma'ajo Lawasanjo. Crafted with Precision &amp; Purpose.
+  </text>
+</svg>

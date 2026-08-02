@@ -1,0 +1,160 @@
+<svg width="1200" height="580" viewBox="0 0 1200 580" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="timelineBg" x1="0" y1="0" x2="1200" y2="580" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#02050b"/>
+      <stop offset="50%" stop-color="#050a14"/>
+      <stop offset="100%" stop-color="#02050b"/>
+    </linearGradient>
+
+    <!-- Node Glow Filter -->
+    <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#22c55e" flood-opacity="0.8"/>
+    </filter>
+
+    <!-- Line Gradient -->
+    <linearGradient id="axisGrad" x1="0" y1="0" x2="0" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="960" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#09101f"/>
+      <stop offset="100%" stop-color="#060b16"/>
+    </linearGradient>
+
+    <!-- Border Linear Gradient -->
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1200" y2="580" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect width="1200" height="580" rx="14" fill="url(#timelineBg)"/>
+  <rect x="1" y="1" width="1198" height="578" rx="13" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
+
+  <!-- Vertical Timeline Axis Line -->
+  <line x1="160" y1="40" x2="160" y2="540" stroke="url(#axisGrad)" stroke-width="3" stroke-dasharray="0"/>
+
+  <!-- ITEM 1: 2026 - Unified Payments -->
+  <g transform="translate(0, 30)">
+    <!-- Year Badge -->
+    <rect x="50" y="8" width="75" height="28" rx="14" fill="#22c55e" fill-opacity="0.15" stroke="#22c55e" stroke-width="1"/>
+    <text x="87.5" y="27" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="700" fill="#22c55e" text-anchor="middle">2026</text>
+    
+    <!-- Timeline Node Circle -->
+    <circle cx="160" cy="22" r="7" fill="#22c55e" filter="url(#nodeGlow)"/>
+    <circle cx="160" cy="22" r="3" fill="#ffffff"/>
+
+    <!-- Content Card -->
+    <rect x="200" y="0" width="950" height="52" rx="8" fill="url(#cardGrad)" stroke="rgba(34, 197, 94, 0.3)" stroke-width="1"/>
+    <text x="220" y="24" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Unified Payments Limited</text>
+    <text x="425" y="24" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="#22c55e">• IT PTSA Intern</text>
+    <text x="220" y="42" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#94a3b8">Enterprise Fintech Infrastructure, Operational POS Transaction Datasets &amp; SQL Reconciliation</text>
+  </g>
+
+  <!-- ITEM 2: 2026 - STEMise Volunteer -->
+  <g transform="translate(0, 105)">
+    <!-- Year Badge -->
+    <rect x="50" y="8" width="75" height="28" rx="14" fill="#22c55e" fill-opacity="0.15" stroke="#22c55e" stroke-width="1"/>
+    <text x="87.5" y="27" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="700" fill="#22c55e" text-anchor="middle">2026</text>
+    
+    <!-- Timeline Node Circle -->
+    <circle cx="160" cy="22" r="7" fill="#22c55e" filter="url(#nodeGlow)"/>
+    <circle cx="160" cy="22" r="3" fill="#ffffff"/>
+
+    <!-- Content Card -->
+    <rect x="200" y="0" width="950" height="52" rx="8" fill="url(#cardGrad)" stroke="rgba(34, 197, 94, 0.3)" stroke-width="1"/>
+    <text x="220" y="24" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="700" fill="#ffffff">STEMise Volunteer</text>
+    <text x="375" y="24" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="#22c55e">• Educational Outreach Specialist</text>
+    <text x="220" y="42" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#94a3b8">Facilitating Computer Science Workshops, Technical Literacy &amp; Youth STEM Education</text>
+  </g>
+
+  <!-- ITEM 3: 2025 - Inteleva Group -->
+  <g transform="translate(0, 180)">
+    <!-- Year Badge -->
+    <rect x="50" y="8" width="75" height="28" rx="14" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="1"/>
+    <text x="87.5" y="27" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="700" fill="#60a5fa" text-anchor="middle">2025</text>
+    
+    <!-- Timeline Node Circle -->
+    <circle cx="160" cy="22" r="7" fill="#3b82f6" filter="url(#nodeGlow)"/>
+    <circle cx="160" cy="22" r="3" fill="#ffffff"/>
+
+    <!-- Content Card -->
+    <rect x="200" y="0" width="950" height="52" rx="8" fill="url(#cardGrad)" stroke="rgba(59, 130, 246, 0.3)" stroke-width="1"/>
+    <text x="220" y="24" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Inteleva Group</text>
+    <text x="345" y="24" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="#60a5fa">• Founder &amp; Principal Developer</text>
+    <text x="220" y="42" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#94a3b8">Architecting AI SaaS platforms, Multi-Agent Engines &amp; Distributed System Infrastructure</text>
+  </g>
+
+  <!-- ITEM 4: 2025 - SmartHub AgroChain -->
+  <g transform="translate(0, 255)">
+    <!-- Year Badge -->
+    <rect x="50" y="8" width="75" height="28" rx="14" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="1"/>
+    <text x="87.5" y="27" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="700" fill="#60a5fa" text-anchor="middle">2025</text>
+    
+    <!-- Timeline Node Circle -->
+    <circle cx="160" cy="22" r="7" fill="#3b82f6" filter="url(#nodeGlow)"/>
+    <circle cx="160" cy="22" r="3" fill="#ffffff"/>
+
+    <!-- Content Card -->
+    <rect x="200" y="0" width="950" height="52" rx="8" fill="url(#cardGrad)" stroke="rgba(59, 130, 246, 0.3)" stroke-width="1"/>
+    <text x="220" y="24" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="700" fill="#ffffff">SmartHub AgroChain</text>
+    <text x="395" y="24" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="#60a5fa">• Lead Full-Stack Developer</text>
+    <text x="220" y="42" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#94a3b8">Decentralized Agricultural Resource Marketplace connecting Farmers, Investors &amp; Markets</text>
+  </g>
+
+  <!-- ITEM 5: 2025 - Design & Code -->
+  <g transform="translate(0, 330)">
+    <!-- Year Badge -->
+    <rect x="50" y="8" width="75" height="28" rx="14" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="1"/>
+    <text x="87.5" y="27" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="700" fill="#60a5fa" text-anchor="middle">2025</text>
+    
+    <!-- Timeline Node Circle -->
+    <circle cx="160" cy="22" r="7" fill="#3b82f6" filter="url(#nodeGlow)"/>
+    <circle cx="160" cy="22" r="3" fill="#ffffff"/>
+
+    <!-- Content Card -->
+    <rect x="200" y="0" width="950" height="52" rx="8" fill="url(#cardGrad)" stroke="rgba(59, 130, 246, 0.3)" stroke-width="1"/>
+    <text x="220" y="24" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Design &amp; Code</text>
+    <text x="345" y="24" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="#60a5fa">• Co-Founder</text>
+    <text x="220" y="42" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#94a3b8">Global Tech Community connecting 5,000+ Developers &amp; Designers through Mentorship &amp; Events</text>
+  </g>
+
+  <!-- ITEM 6: 2024 - MA'AJO DIGITAL -->
+  <g transform="translate(0, 405)">
+    <!-- Year Badge -->
+    <rect x="50" y="8" width="75" height="28" rx="14" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7" stroke-width="1"/>
+    <text x="87.5" y="27" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="700" fill="#c084fc" text-anchor="middle">2024</text>
+    
+    <!-- Timeline Node Circle -->
+    <circle cx="160" cy="22" r="7" fill="#a855f7" filter="url(#nodeGlow)"/>
+    <circle cx="160" cy="22" r="3" fill="#ffffff"/>
+
+    <!-- Content Card -->
+    <rect x="200" y="0" width="950" height="52" rx="8" fill="url(#cardGrad)" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1"/>
+    <text x="220" y="24" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="700" fill="#ffffff">MA'AJO DIGITAL</text>
+    <text x="350" y="24" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="#c084fc">• Founder &amp; Creative Director</text>
+    <text x="220" y="42" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#94a3b8">Corporate Visual Brand Systems, User Experience Strategy &amp; Enterprise Graphic Design</text>
+  </g>
+
+  <!-- ITEM 7: 2024 - NUTM IT Support -->
+  <g transform="translate(0, 480)">
+    <!-- Year Badge -->
+    <rect x="50" y="8" width="75" height="28" rx="14" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7" stroke-width="1"/>
+    <text x="87.5" y="27" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="700" fill="#c084fc" text-anchor="middle">2024</text>
+    
+    <!-- Timeline Node Circle -->
+    <circle cx="160" cy="22" r="7" fill="#a855f7" filter="url(#nodeGlow)"/>
+    <circle cx="160" cy="22" r="3" fill="#ffffff"/>
+
+    <!-- Content Card -->
+    <rect x="200" y="0" width="950" height="52" rx="8" fill="url(#cardGrad)" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1"/>
+    <text x="220" y="24" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="700" fill="#ffffff">NUTM IT Support</text>
+    <text x="365" y="24" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="#c084fc">• Student IT Specialist</text>
+    <text x="220" y="42" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#94a3b8">Campus Network Infrastructure, Hardware Diagnostics &amp; Student Technical Support</text>
+  </g>
+</svg>

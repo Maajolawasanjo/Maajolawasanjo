@@ -1,0 +1,23 @@
+<svg width="1200" height="175" viewBox="0 0 1200 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Emerald Glow Filter -->
+    <filter id="emeraldGlowFilter" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#22c55e" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Clean Solid Dark Background (No Border / No Box Stroke) -->
+  <rect width="1200" height="175" rx="8" fill="#050a14"/>
+
+  <!-- PURE STANDALONE THICK BLOCK ASCII TEXT -->
+  <g transform="translate(60, 38)" filter="url(#emeraldGlowFilter)">
+    <text font-family="'Courier New', Courier, monospace" font-size="11.5" font-weight="900" fill="#22c55e" xml:space="preserve">
+      <tspan x="0" dy="0">███╗   ███╗ █████╗  █████╗      ██╗ ██████╗     ██╗      █████╗ ██╗    ██╗ █████╗ ███████╗ █████╗ ███╗   ██╗     ██╗ ██████╗ </tspan>
+      <tspan x="0" dy="17">████╗ ████║██╔══██╗██╔══██╗     ██║██╔═══██╗    ██║     ██╔══██╗██║    ██║██╔══██╗██╔════╝██╔══██╗████╗  ██║     ██║██╔═══██╗</tspan>
+      <tspan x="0" dy="17">██╔████╔██║███████║███████║     ██║██║   ██║    ██║     ███████║██║ █╗ ██║███████║███████╗███████║██╔██╗ ██║     ██║██║   ██║</tspan>
+      <tspan x="0" dy="17">██║╚██╔╝██║██╔══██║██╔══██║██   ██║██║   ██║    ██║     ██╔══██║██║███╗██║██╔══██║╚════██║██╔══██║██║╚██╗██║██   ██║██║   ██║</tspan>
+      <tspan x="0" dy="17">██║ ╚═╝ ██║██║  ██║██║  ██║╚█████╔╝╚██████╔╝    ███████╗██║  ██║╚███╔███╔╝██║  ██║███████║██║  ██║██║ ╚████║╚█████╔╝╚██████╔╝</tspan>
+      <tspan x="0" dy="17">╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝  ╚═════╝     ╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚════╝  ╚═════╝ </tspan>
+    </text>
+  </g>
+</svg>
