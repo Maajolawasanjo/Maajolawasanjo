@@ -337,8 +337,6 @@ Deploy  ──▶ Deployed on Vercel with real-time WebSocket state syncing.
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Maajolawasanjo&theme=tokyonight&background=0A1122&border=22C55E&stroke=22C55E&ring=22C55E&fire=22C55E&currStreakLabel=22C55E" width="800" alt="GitHub Streak Stats" />
-  <br /><br />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Maajolawasanjo&show_icons=true&theme=tokyonight&bg_color=0A1122&border_color=22C55E&title_color=22C55E&text_color=FFFFFF" width="800" alt="GitHub Stats" />
 </div>
 
 <br />
